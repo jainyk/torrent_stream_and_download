@@ -1,15 +1,6 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <br />
 
 <p align="center">
-  <a href="https://github.com/imneonizer/autolycus">
     <img src="images/banner-logo.png" alt="Logo" width="800">
   </a>
 
@@ -18,14 +9,8 @@
   <p align="center">
     stream torrent files from hosted web servers remotely!
     <br />
-    <a href="https://github.com/imneonizer/autolycus"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://youtu.be/A64dRyOJoqw">View Demo</a>
     ·
-    <a href="https://github.com/imneonizer/autolycus/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/imneonizer/autolycus/issues">Request Feature</a>
   </p>
 </p>
 
@@ -66,9 +51,6 @@
 
 - Currently this project sends a get request at fixed intervals to get the updates, that's not the best way to do it, I will be using web sockets to get real time updates.
 
-- I have already started to build the core of the application as a separate module, you can check it out [here](https://github.com/imneonizer/libtorrentx) (It's able to utilize the full potential of libtorrent and is blazing fast).
-
-- `libtorrentx` also supports pause and resume of downloads, so you can pause the download and resume it later, and there will be a caching mechanism so that you don't have to download the entire file again if it's already downloaded by other users.
 
 - The libtorrent module in this repository is now updated to use more connection threads, so that the download speed is increased (Make sure to use full magnet uri which also includes the trackers).
 
@@ -169,30 +151,3 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 Distributed under the GNU General Public License v3.0. See [LICENSE](LICENSE.txt) for more information.
-
-
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## Acknowledgements
-* https://github.com/CrazyCoder009/AUTOLYCUS/blob/master/AUTOLYCUS.ipynb
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/imneonizer/autolycus.svg?style=for-the-badge
-[contributors-url]: https://github.com/imneonizer/autolycus/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/imneonizer/autolycus.svg?style=for-the-badge
-[forks-url]: https://github.com/imneonizer/autolycus/network/members
-[stars-shield]: https://img.shields.io/github/stars/imneonizer/autolycus.svg?style=for-the-badge
-[stars-url]: https://github.com/imneonizer/autolycus/stargazers
-[issues-shield]: https://img.shields.io/github/issues/imneonizer/autolycus.svg?style=for-the-badge
-[issues-url]: https://github.com/imneonizer/autolycus/issues
-[license-shield]: https://img.shields.io/github/license/imneonizer/autolycus.svg?style=for-the-badge
-[license-url]: https://github.com/imneonizer/autolycus/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/imneonizer/
