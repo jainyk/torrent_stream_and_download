@@ -171,12 +171,6 @@ Contributions are what make the open source community such an amazing place to b
 Distributed under the GNU General Public License v3.0. See [LICENSE](LICENSE.txt) for more information.
 
 
-<!-- CONTACT -->
-## Contact
-
-Nitin Rai - [@imneonizer](https://twitter.com/imneonizer) - mneonizer@gmail.com
-
-Project Link: [https://github.com/imneonizer/autolycus](https://github.com/imneonizer/autolycus)
 
 
 
