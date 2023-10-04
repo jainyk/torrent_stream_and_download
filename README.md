@@ -31,11 +31,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 <!-- ABOUT THE PROJECT -->
@@ -97,7 +94,7 @@ This project is focused to run on server environment hence docker containers are
 
 2. Clone the repo
    ```sh
-   git clone https://github.com/imneonizer/autolycus.git
+   git clone https://github.com/jainyk/torrent_stream_and_download.git
    ```
 3. Create `.env` file inside the project root folder, add the following to it (refer `example.env`)
    ```
@@ -123,15 +120,6 @@ This project is focused to run on server environment hence docker containers are
 - Once logged in you can paste any valid torrent magnet link into the `Add Magnet` input field and it will start downloading the torrent file.
 
   ![downloading](images/web-download.png)
-
-
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-See the [open issues](https://github.com/imneonizer/autolycus/issues) for a list of proposed features (and known issues).
-
 
 
 <!-- CONTRIBUTING -->
